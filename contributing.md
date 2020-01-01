@@ -1,4 +1,4 @@
-Bei diesem Projekt geht es um das Erstellen einer Seite zumm Thema Semesterplaner. Um sich an die Aufgabenstellung zu halten, ist es wichtig, dass genau vier bestimmte Leute an diesem Repository arbeiten.
+Bei diesem Projekt geht es um das Erstellen einer Seite zum Thema Semesterplaner. Um sich an die Aufgabenstellung zu halten, ist es wichtig, dass genau vier bestimmte Leute an diesem Repository arbeiten.
 
 Grundregeln
 
