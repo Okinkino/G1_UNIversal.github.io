@@ -1,1 +1,5 @@
-Inhalt wird noch hinzugefügt.
+Bei diesem Projekt geht es um das Erstellen einer Seite zumm Thema Semesterplaner. Um sich an die Aufgabenstellung zu halten, ist es wichtig, dass genau vier bestimmte Leute an diesem Repository arbeiten.
+
+Grundregeln
+
+Prinzipiell sollte jedes Mitglied das tun, was es für richtig hält. Sollte es Zweifel, Unklarheiten oder Meinungsverschiedenheiten geben, so ist es wichtig, diese über Github oder über Discord bekannt zu geben, um auf einen gemeinsamen Nenner zu kommen. Natürlich ist ein sozialer Umgang mit den anderen Kollaboratoren eine wichtige Grundlage für unser Projekt.
