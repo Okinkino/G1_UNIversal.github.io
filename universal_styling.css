@@ -21,7 +21,6 @@ body {
     font-size: 18px;
 }
 
-
 #nav ul {
     font-size: 18px;
     list-style-type: none;
@@ -29,8 +28,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: rgb(70, 70, 70);
-    
-  }
+}
   
 #nav li {
     font-family: 'Roboto', sans-serif;
@@ -79,12 +77,23 @@ body {
 
 #main h1 {
     font-family: 'Quicksand', sans-serif;
-    margin: 20px 0px;
-    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 45px;
+    font-size: 42px;
+}
+
+#main h1[id="first"] {
+    margin-top: 0px;
 }
 
 #main p {
     font-family: 'Roboto', sans-serif;
+}
+
+#main h2 {
+    font-family: 'Rasa', sans-serif;
+    margin: 15px 0px;
+    font-size: 25px;
 }
 
 #main ul {
@@ -94,5 +103,5 @@ body {
 
 #main li {
     font-family: 'Roboto', sans-serif;
-    margin-top: 10px;
+    margin-top: 14px;
 }
