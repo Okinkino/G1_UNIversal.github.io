@@ -7,7 +7,7 @@ body {
     background-color: rgb(245, 245, 245);
 }
 
-#header {
+header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,27 +15,36 @@ body {
     min-height: 140px;
 }
 
-#main {
+article {
     margin: 40px;
     color: rgb(46, 46, 46);
 }
 
-#nav ul {
+article h1 {
+    font-family: 'Quicksand', sans-serif;
+    margin: 20px 0px;
+}
+
+article p {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(46, 46, 46);
-  }
+}
   
-#nav li {
+nav li {
     font-family: 'Roboto', sans-serif;
     float: left;
     border-right: 1px solid rgb(90, 90, 90);
     min-width: max-content;
 }
 
-#nav li a {
+nav li a {
     display: block;
     color: rgb(139, 139, 139);
     transition: ease-in 0.15s;
@@ -44,12 +53,12 @@ body {
     text-decoration: none;
 }
 
-#nav li a:hover {
+nav li a:hover {
     background-color: rgb(15, 15, 15);
     color: rgb(245, 245, 245);
 }
 
-#footer {
+footer {
     display: flex;
     align-items: center;
     justify-content: right;
@@ -65,15 +74,6 @@ body {
     color: rgb(245, 245, 245);
 }
 
-#footer p {
+footer p {
     padding-right: 10px;
-}
-
-h1 {
-    font-family: 'Quicksand', sans-serif;
-    margin: 20px 0px;
-}
-
-p {
-    font-family: 'Roboto', sans-serif;
 }
