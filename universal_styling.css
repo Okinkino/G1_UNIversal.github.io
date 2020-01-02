@@ -77,12 +77,22 @@ body {
     padding-right: 10px;
 }
 
-header {
+#main h1 {
     font-family: 'Quicksand', sans-serif;
     margin: 20px 0px;
     font-size: 36px;
 }
 
-p {
+#main p {
     font-family: 'Roboto', sans-serif;
+}
+
+#main ul {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#main li {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
 }
