@@ -21,9 +21,6 @@ body {
     font-size: 18px;
 }
 
-#main h1{
-    font-size: 36px;
-}
 
 #nav ul {
     font-size: 18px;
@@ -80,9 +77,10 @@ body {
     padding-right: 10px;
 }
 
-h1 {
+header {
     font-family: 'Quicksand', sans-serif;
     margin: 20px 0px;
+    font-size: 36px;
 }
 
 p {
