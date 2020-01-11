@@ -43,8 +43,6 @@ article p {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: rgb(46, 46, 46);
     margin: auto;
@@ -104,4 +102,13 @@ footer p {
 	top: 0;
         width: 100%;
 	z-index: 1;
+}
+
+
+
+#downloads {
+        list-style-type: none;
+}
+#downloads ul li {
+        float: left;
 }
