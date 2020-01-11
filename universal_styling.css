@@ -5,6 +5,7 @@
 
 body {
     background-color: rgb(245, 245, 245);
+    font-size: 18pt;
 }
 
 header {
@@ -16,13 +17,24 @@ header {
 }
 
 article {
-    margin: 40px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
     color: rgb(46, 46, 46);
+}
+
+p {
+    margin-top: 10px;
 }
 
 article h1 {
     font-family: 'Quicksand', sans-serif;
     margin: 20px 0px;
+}
+
+h1, h2 {
+    margin-top: 30px;
 }
 
 article p {
@@ -31,10 +43,10 @@ article p {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: rgb(46, 46, 46);
+    margin: auto;
+    width: 1200px;
 }
   
 nav li {
@@ -75,5 +87,28 @@ footer {
 }
 
 footer p {
-    padding-right: 10px;
+    margin: auto;
+    width: 1200px;
+    text-align:center;
+}
+
+
+
+
+
+/* fixed navigation bar */
+.fixed {
+	position: fixed;
+	top: 0;
+        width: 100%;
+	z-index: 1;
+}
+
+
+
+#downloads {
+        list-style-type: none;
+}
+#downloads ul li {
+        float: left;
 }
