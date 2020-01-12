@@ -29,7 +29,7 @@ p {
 }
 
 article h1 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 20px 0px;
 }
 
@@ -97,6 +97,21 @@ footer p {
 }
 span{
     font-style: italic;
+}
+button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  left: 40%;
 }
 
 
