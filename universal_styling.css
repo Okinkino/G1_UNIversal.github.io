@@ -1,13 +1,16 @@
+/* Disable all browser styles */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Standard values */
 body {
     background-color: rgb(245, 245, 245);
     font-size: 18pt;
 }
 
+/* Header with header image */
 header {
     display: flex;
     justify-content: center;
@@ -16,18 +19,23 @@ header {
     min-height: 140px;
 }
 
+/* Normal website text */
 article {
-    width: 1200px;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 50px;
     color: rgb(46, 46, 46);
 }
 
+/* Paragraph */
 p {
-    margin-top: 10px;
+    margin-top: 10px; /* Abstand zwischen Absaetzen */
 }
 
+/* Headings */
 article h1 {
     font-family: 'Roboto', sans-serif;
     margin: 20px 0px;
@@ -41,6 +49,7 @@ article p {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Navigation bar */
 nav ul {
     font-size: 18px;
     overflow: hidden;
@@ -74,6 +83,7 @@ nav li a:hover {
     color: rgb(245, 245, 245);
 }
 
+/* Footer with copyright message */
 footer {
     display: flex;
     align-items: center;
@@ -95,9 +105,13 @@ footer p {
     width: 1200px;
     text-align:center;
 }
+
+/* ??? */
 span{
     font-style: italic;
 }
+
+/* Button */
 button{
   background-color: #4CAF50;
   border: none;
@@ -126,10 +140,21 @@ button{
 }
 
 
-
+/* Download buttons */
 #downloads {
         list-style-type: none;
 }
 #downloads ul li {
         float: left;
+}
+
+/* Projektlogo */
+.projektlogo {
+        width:27%; 
+        transform: rotateZ(-37deg); 
+        position: absolute; 
+        float: left; 
+        left: -1%; 
+        top: 12%;
+        z-index: -1; /* damit die Menue-Buttons ggf. darueber sind */
 }
