@@ -91,7 +91,9 @@ footer p {
     width: 1200px;
     text-align:center;
 }
-
+span{
+    font-style: italic;
+}
 
 
 
