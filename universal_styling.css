@@ -92,8 +92,8 @@ footer {
     width: 100%;
     background-color: rgb(46, 46, 46);
     min-height: 30px;
-    left: 0px;
-    bottom: 0px;
+    left: 0;
+    bottom: 0;
     vertical-align: middle;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -103,7 +103,7 @@ footer {
 footer p {
     margin: auto;
     width: 1200px;
-    text-align:center;
+    text-align: center;
 }
 
 /* ??? */
