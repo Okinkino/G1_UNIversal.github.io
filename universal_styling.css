@@ -49,6 +49,16 @@ article p {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Aufzaehlungspunkte */
+article ul {
+    margin-top: .5em;
+}
+article li {
+    margin-left: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 /* Navigation bar */
 nav ul {
     font-size: 18px;
